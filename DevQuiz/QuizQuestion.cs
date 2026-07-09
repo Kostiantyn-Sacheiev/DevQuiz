@@ -8,5 +8,8 @@ namespace DevQuiz
 {
     internal class QuizQuestion
     {
+        public string QuestionText { get; set; } = ""; 
+        public List<string> Answers { get; set; } = new List<string>(); 
+        public int CorrectAnswerIndex { get; set; }
     }
 }
